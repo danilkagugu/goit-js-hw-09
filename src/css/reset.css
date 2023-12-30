@@ -33,3 +33,23 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn-home {
+  margin-top: 50px;
+  width: 86px;
+  height: 40px;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}

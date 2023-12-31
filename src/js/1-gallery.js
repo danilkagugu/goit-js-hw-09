@@ -78,7 +78,7 @@ const markup = images
       alt="${images.description}"
     />
   </a>
-</li>;`
+</li>`
   )
   .join('');
 

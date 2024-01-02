@@ -47,14 +47,16 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  cursor: pointer;
 }
 .feedback-form button:hover {
   background-color: #6c8cff;
 }
-.feedback-form textarea {
+textarea {
+  display: flex;
   resize: none;
-  max-width: 360px;
-  height: 40px;
+  width: 360px;
+  height: 80px;
   border-radius: 4px;
   border: 1px solid #808080;
 }
